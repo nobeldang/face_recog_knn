@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import os
 
-########## KNN CODE ############
+########## PROGRAM FOR KNN ALGORTIHM ############
 def distance(v1, v2):
 	# Eucledian distance
 	return np.sqrt(((v1-v2)**2).sum())
